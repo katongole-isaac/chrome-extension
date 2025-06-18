@@ -15,7 +15,7 @@ export default function App() {
             alt="TypeScript logo"
           />
         </a>
-        <h1>Vite + TypeScript</h1>
+        <h1>Vite + TypeScriptm</h1>
         <div className="card">
           <button id="counter" type="button"></button>
         </div>
