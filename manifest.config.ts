@@ -14,10 +14,10 @@ const manifest: ManifestV3Export = {
     default_popup: "index.html",
   },
   content_scripts: [
-    { js: ["src/scripts/content.js"], matches: ["<all_urls>"] },
+    { js: ["src/scripts/content.tsx"], matches: ["<all_urls>"] },
   ],
   background: {
-    service_worker: "src/service-worker/background.js",
+    service_worker: "src/service-worker/background.ts",
     type: "module",
   },
 };
