@@ -1,7 +1,17 @@
+/**
+ * Incase you don't want to use react in your content script
+ * feel free to remove all the following code.
+ * 
+ */
+
+//@ts-nocheck
 import React from "react";
 import ReactDOM from "react-dom/client";
 
+// Tailwindcss
 import "../style.css";
+
+// Root Component
 import ContentScriptApp from "./app";
 
 const mountReactApp = () => {
